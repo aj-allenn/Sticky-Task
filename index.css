@@ -1,0 +1,74 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to right,rgb(29, 75, 55),white);
+    height:100vh ;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+
+.sticky{
+    position: absolute;
+    width: 300px;
+    min-height: 300px;
+    background: linear-gradient(to right, rgb(248, 250, 253), rgb(144, 219, 227));
+    box-shadow: 2px 2px 5px 2px rgb(106, 102, 102) ;
+    border: 1px solid #eee;
+    padding: 10px;
+    overflow: hidden;
+    cursor: move;
+}
+
+.sticky textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent; 
+    font-size: 20px;
+    color: #060505;
+
+} */
+
+body {
+      font-family: Arial, sans-serif;
+      background: #d98c8c;
+    }
+
+    #addBtn {
+      padding: 10px 15px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .note {
+      width: 150px;
+      height: 150px;
+      background: #76ff98; 
+      padding: 10px;
+      position: absolute; 
+      cursor: move;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    }
+
+    textarea {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: transparent;
+      resize: none;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .note .cancel{
+        position: absolute;
+        top:5px;
+        right: 5px;
+        cursor: pointer;
+        color: #d98c8c;
+        font-weight: bolder;
+    }
